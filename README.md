@@ -21,9 +21,9 @@ $config['variables'] = array(
 );
 ```
 
-Now when you reference `%base_url%` in your markdown/textile/content pages, it will be rendered as your real base URL.
+These keys are the variables, and the value is what the replaced string will be. So now when you reference `%base_url%` or `%site_url%` in your markdown/textile/content pages, it will be rendered as your real base URL.
 
-If you base_url was *http://example.com*:
+If you base URL was *http://example.com*:
 
 ```markdown
 This is a link to my [base URL](%base_url%)
