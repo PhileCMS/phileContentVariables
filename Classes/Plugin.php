@@ -2,7 +2,7 @@
 /**
  * Plugin class
  */
-namespace Phile\Plugin\Phile\Contentvariables;
+namespace Phile\Plugin\Phile\ContentVariables;
 
 /**
  * Add custom variables in your content before it is parsed.
