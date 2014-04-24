@@ -1,9 +1,13 @@
 <?php
+/**
+ * Plugin class
+ */
+namespace Phile\Plugin\Phile\Contentvariables;
 
 /**
  * Add custom variables in your content before it is parsed.
  */
-class PhileContentVariables extends \Phile\Plugin\AbstractPlugin implements \Phile\EventObserverInterface {
+class Plugin extends \Phile\Plugin\AbstractPlugin implements \Phile\Gateway\EventObserverInterface {
 
 	public function __construct() {
 		\Phile\Event::registerEvent('after_parse_content', $this);
