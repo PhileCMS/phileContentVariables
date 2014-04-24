@@ -5,14 +5,14 @@ A plugin for [Phile](https://github.com/PhileCMS/Phile) to add custom variables 
 
 ### 1.1 Installation (composer)
 ```
-php composer.phar require phile/contentvariables:*
+php composer.phar require phile/content-variables:*
 ```
 
 ### 1.2 Installation (Download)
 
 * Install the latest version of [Phile](https://github.com/PhileCMS/Phile)
-* Clone this repo into `plugins/phile/contentvariables`
-* add `$config['plugins']['phile\\contentvariables'] = array('active' => true);` to your `config.php`
+* Clone this repo into `plugins/phile/contentVariables`
+* add `$config['plugins']['phile\\contentVariables'] = array('active' => true);` to your `config.php`
 * add an array called `variables` in your `$config` array.
 
 ### Usage
