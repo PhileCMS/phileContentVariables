@@ -12,7 +12,15 @@ php composer.phar require phile/content-variables:*
 
 * Install the latest version of [Phile](https://github.com/PhileCMS/Phile)
 * Clone this repo into `plugins/phile/contentVariables`
-* add `$config['plugins']['phile\\contentVariables'] = array('active' => true);` to your `config.php`
+
+### 2. Activation
+
+After you have installed the plugin. You need to add the following line to your `config.php` file:
+
+```
+$config['plugins']['phile\\contentVariables'] = array('active' => true);
+```
+
 * add an array called `variables` in your `$config` array.
 
 ### Usage
