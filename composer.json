@@ -1,7 +1,6 @@
 {
 	"name": "phile/content-variables",
 	"type": "phile-plugin",
-    "version": "1.0.0",
     "license": "MIT",
     "description": "A plugin to add custom variables in your content before it is parsed.",
     "homepage": "http://philecms.com",
@@ -12,10 +11,14 @@
             "email": "james2doyle@gmail.com",
             "homepage": "http://ohdoylerules.com/",
             "role": "Developer"
+        },
+        {
+            "name": "PhileCMS community",
+            "homepage": "https://github.com/PhileCMS/phileContentVariables/graphs/contributors"
         }
     ],
 	"require": {
-        "phile-cms/phile": ">=1",
-        "phile-cms/plugin-installer-plugin": ">=1"
+        "phile-cms/phile": "^1.9",
+        "phile-cms/plugin-installer-plugin": "^1.0"
 	}
 }
